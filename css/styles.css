@@ -1,3 +1,33 @@
+body{
+    background-color: #CCCCFF;
+    text-align: center
+}
+
+h3{
+    font-size: 24pt;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px;
+}
+
+#listOfItems{
+    width:300px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.list-item{
+    list-style-type: none;
+    line-height: 25px;
+}
+
 .show-button{
     display: inline-block;
+    float: right;
+}
+
+.hide-button{
+    display: none !important;
 }
